@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Weather Report</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1 id="banner">Weather Dashboard</h1>
+    </header>
+    <main>
+        <section id="search">
+            <input id="searchBar" type="text" placeholder="City">
+            <button id="searchButton" type="button">Search</button>
+            <ul id="searchHistory">
+                <li id="history0">f</li>
+                <li id="history1">a</li>
+                <li id="history2">b</li>
+                <li id="history3">c</li>
+                <li id="history4">d</li>
+            </ul>
+        </section>
+
+        <section id="displays">
+            <h2 class="cardTitle" id="city">City Name</h2>
+            <ul id="weather">
+                <li class="cardText" id="temp">temperature</li>
+                <li class="cardText" id="wind">wind speed</li>
+                <li class="cardText" id="humidity">humidity</li>
+                <li class="cardText" id="UV">UV Index</li>
+            </ul>
+            <aside id="5dayForecast">
+                <ul id="forecastCards">
+                    <li>
+                        <div class="card">day 1</div>
+                    </li>
+                    <li>
+                        <div class="card">day 2</div>
+                    </li>
+                    <li>
+                        <div class="card">day 3</div>
+                    </li>
+                    <li>
+                        <div class="card">day 4</div>
+                    </li>
+                    <li>
+                        <div class="card">day 5</div>
+                    </li>
+                </ul>
+            </aside>
+        </section>
+
+
+
+    </main>
+</body>
